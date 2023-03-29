@@ -1,3 +1,5 @@
+// Esta es la version 2
+
 #include <stdio.h>
 #include "driver/gpio.h"
 #include "freertos/FreeRTOS.h"
@@ -19,7 +21,6 @@ TaskHandle_t Handle_LED_A;
 TaskHandle_t Handle_LED_V;
 
 const char * TAG = "LED_TASK";
-
 
 void app_main(void)
 {
